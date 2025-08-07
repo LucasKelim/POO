@@ -10,5 +10,7 @@ public class Q5 {
         float c = m * 100;
 
         System.out.println("Centímetros: " + c);
+
+        input.close();
     }
 }

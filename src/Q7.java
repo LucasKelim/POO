@@ -10,5 +10,6 @@ public class Q7 {
         double area = Math.pow(lado, 2);
 
         System.out.print("Área: " + area);
+        input.close();
     }
 }

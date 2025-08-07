@@ -12,5 +12,7 @@ public class Q12 {
 
         System.out.printf("Peso ideal homem: %.2f kg \n", men);
         System.out.printf("Peso ideal mulher: %.2f kg \n", women);
+
+        input.close();
     }
 }

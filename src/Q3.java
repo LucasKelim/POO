@@ -12,5 +12,7 @@ public class Q3 {
         int sum = n1 + n2;
 
         System.out.println("Soma: " + sum);
+
+        input.close();
     }
 }

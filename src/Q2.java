@@ -7,5 +7,7 @@ public class Q2 {
         int num = in.nextInt();
 
         System.out.println("O número informado foi " + num);
+
+        in.close();
     }
 }

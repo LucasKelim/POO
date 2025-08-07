@@ -22,5 +22,7 @@ public class Q10 {
         System.out.println("A. R: " + a);
         System.out.println("B. R: " + b);
         System.out.println("C. R: " + c);
+
+        input.close();
     }
 }

@@ -13,5 +13,6 @@ public class Q8 {
         double total = salario * horas;
 
         System.out.print("salário total: " + total);
+        input.close();
     }
 }

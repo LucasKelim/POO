@@ -18,5 +18,7 @@ public class Q13 {
         System.out.println("Peso: " + peso + " kg");
         System.out.println("Excesso: " + excesso + " kg");
         System.out.println("Multa: R$ " + multa);
+
+        input.close();
     }
 }

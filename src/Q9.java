@@ -10,5 +10,7 @@ public class Q9 {
         double celsius = (f - 32) * 5 / 9;
 
         System.out.println("Temperatura em Celsius: " + celsius);
+
+        input.close();
     }
 }

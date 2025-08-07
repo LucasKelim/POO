@@ -16,5 +16,7 @@ public class Q4 {
         int media = (n1+n2+n3+n4)/4;
 
         System.out.println("Média: " + media);
+
+        input.close();
     }
 }

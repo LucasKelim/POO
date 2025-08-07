@@ -10,5 +10,7 @@ public class Q11 {
         double w = (72.7 * h) - 58;
 
         System.out.printf("Peso ideal: %.2f kg", w);
+
+        input.close();
     }
 }
