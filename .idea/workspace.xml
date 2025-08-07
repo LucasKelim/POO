@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbf85af5-7af7-4968-a1c4-dc15526e1cda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dbf85af5-7af7-4968-a1c4-dc15526e1cda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="30upmrys2EIvRhWUoj9vFRSKdTZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -36,14 +34,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Q1.executor": "Run",
+    "Application.Q10.executor": "Run",
+    "Application.Q11.executor": "Run",
+    "Application.Q12.executor": "Run",
+    "Application.Q13.executor": "Run",
     "Application.Q2.executor": "Run",
     "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
     "Application.Q6.executor": "Run",
+    "Application.Q8.executor": "Run",
+    "Application.Q9.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "lista1",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
