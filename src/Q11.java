@@ -15,5 +15,7 @@ public class Q11 {
         };
 
         System.out.println(m);
+
+        input.close();
     }
 }

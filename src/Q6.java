@@ -10,5 +10,7 @@ public class Q6 {
         valor++;
 
         System.out.println(valor);
+
+        input.close();
     }
 }

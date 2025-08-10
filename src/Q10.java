@@ -16,5 +16,7 @@ public class Q10 {
 
         System.out.println("Maior: " + maior);
         System.out.println("Menor: " + menor);
+
+        input.close();
     }
 }

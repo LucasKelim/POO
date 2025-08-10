@@ -34,5 +34,7 @@ public class Q13 {
         System.out.printf("FGTS (%.0f): R$ %.2f \n", fgts, salarioBruto * fgts);
         System.out.printf("Total de descontos: R$ %.2f \n", descontos);
         System.out.printf("Salário liquido: R$ %.2f \n", salarioFinal);
+
+        input.close();
     }
 }

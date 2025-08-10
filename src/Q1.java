@@ -13,5 +13,7 @@ public class Q1 {
         int maior = Math.max(num1, num2);
 
         System.out.println("Maior: " + maior);
+
+        input.close();
     }
 }

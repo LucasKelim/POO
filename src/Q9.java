@@ -37,5 +37,7 @@ public class Q9 {
         System.out.println("Sexo: " + s);
         System.out.printf("Peso ideal: %.2f \n", pesoIdeal);
         System.out.println(mensagem);
+
+        input.close();
     }
 }

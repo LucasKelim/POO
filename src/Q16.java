@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q8 {
+public class Q16 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -12,7 +12,12 @@ public class Q8 {
 
         float media = (nota1 + nota2) / 2;
 
-        String mensagem = media >= 7 ? "Aprovado" : "Reprovado";
+        String mensagem = "Aprovado";
+        if (media <= 3) {
+            mensagem = "Reprovado";
+        } else if (media < 7) {
+            mensagem = "Em Exame";
+        }
 
         System.out.println(mensagem);
 

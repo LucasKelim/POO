@@ -23,5 +23,7 @@ public class Q12 {
         System.out.println("% de aumento: " + (int) (p * 100));
         System.out.println("Valor aumento: " + aumento);
         System.out.println("Novo salario: " + novoSalario);
+
+        input.close();
     }
 }

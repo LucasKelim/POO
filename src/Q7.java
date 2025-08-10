@@ -36,5 +36,7 @@ public class Q7 {
         }
 
         System.out.printf("%d, %d, %d", maior, meio, menor);
+
+        input.close();
     }
 }

@@ -14,5 +14,7 @@ public class Q4 {
         }
 
         System.out.println(valor);
+
+        input.close();
     }
 }
