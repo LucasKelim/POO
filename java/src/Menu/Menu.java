@@ -1,3 +1,5 @@
+package Menu;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -12,4 +14,13 @@ public class Menu {
                     new MenuItem(105, "Refrigerante", 1)
             )
     );
+    public ArrayList<MenuItem> getMenuItems() {
+        return menuItems;
+    }
+
+    public void showMenu() {
+        for (MenuItem menuItem : menuItems) {
+            System.out.printf("%d: %s R$ %.2f\n", menuItem.getId(), menuItem.getName(), menuItem.getPrice());
+        }
+    }
 }
