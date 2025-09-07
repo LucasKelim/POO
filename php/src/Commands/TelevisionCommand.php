@@ -2,11 +2,12 @@
 
 namespace App\Commands;
 
+use App\Contracts\CommandInterface;
 use App\Models\Television;
 
-class TelevisionCommand
+class TelevisionCommand implements CommandInterface
 {
-    public function run()
+    public function run(): void
     {
         $television = new Television();
 

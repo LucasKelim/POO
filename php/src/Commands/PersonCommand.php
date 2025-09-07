@@ -2,11 +2,12 @@
 
 namespace App\Commands;
 
+use App\Contracts\CommandInterface;
 use App\Models\Person;
 
-class PersonCommand
+class PersonCommand implements CommandInterface
 {
-    public function run()
+    public function run(): void
     {
         $person = new Person();
 
